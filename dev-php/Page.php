@@ -21,13 +21,13 @@ class Page
         }
     }
 
-    public function __construct($opts = array(), $tlp_dir = "/vendor/alexbotelhoa/dev-php/views/site/")
+    public function __construct($opts = array(), $tlp_dir = "/app/views/site/")
     {
         $this->options = array_merge($this->default, $opts);
 
         $config = array(
             "tpl_dir" => $_SERVER["DOCUMENT_ROOT"] . $tlp_dir,
-            "cache_dir" => $_SERVER["DOCUMENT_ROOT"] . "/vendor/alexbotelhoa/dev-php/cache/",
+            "cache_dir" => $_SERVER["DOCUMENT_ROOT"] . "/app/views/cache/",
             "debug" => false
         );
 
