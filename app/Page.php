@@ -25,6 +25,7 @@ class Page
     {
         $this->options = array_merge($this->default, $opts);
 
+        //Array copiado do exemple-semplie.php e modificado para localizar minhas templates nesse projeto
         $config = array(
             "tpl_dir" => $_SERVER["DOCUMENT_ROOT"] . $tlp_dir,
             "cache_dir" => $_SERVER["DOCUMENT_ROOT"] . "/app/views/cache/",
