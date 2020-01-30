@@ -1,0 +1,13 @@
+{
+  "name": "alexbotelhoa/dev-php",
+  "homepage": "https://github.com/alexbotelhoa/dev-php",
+  "authors": [
+    {
+      "name": "Alex Botelho",
+      "email": "alexbotelho1@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  }
+}
